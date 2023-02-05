@@ -3,9 +3,9 @@
     "short_name": "AnehitaLaw",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "fff111",
-    "theme_color": "111fff",
-    "orientation": "portriate-primary",
+    "background_color": "#fff111",
+    "theme_color": "#111fff",
+    "orientation": "portrait-primary",
     "icons": [
         {
             "src": "/images/icons/windows11/SmallTile.scale-100.png",
