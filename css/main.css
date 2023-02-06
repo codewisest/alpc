@@ -1,6 +1,7 @@
 :root {
     --primary-bg-color: #425e95;
-    /* --secondary-bg-color: #ff1; */
+    --secondary-bg-color: #fff;
+    --gray-background: #cfc6c6;
     --accent: #cc8029;
     --primary-text: #fff;
     --secondary-text: #425e95;
@@ -15,5 +16,6 @@
     box-sizing: border-box;
 }
 
-/* fonts */
-/* acumin-pro */
+.flex {
+    display: flex;
+}
