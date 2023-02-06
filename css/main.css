@@ -1,0 +1,16 @@
+:root {
+    --primary-bg-color: #425e95;
+    /* --secondary-bg-color: #ff1; */
+    --accent: #cc8029;
+    --primary-text: #fff;
+    --secondary-text: #425e95;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+/* acumin-pro */
