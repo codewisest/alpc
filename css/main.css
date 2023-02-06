@@ -4,6 +4,9 @@
     --accent: #cc8029;
     --primary-text: #fff;
     --secondary-text: #425e95;
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Playfair Display', serif;
+    --pargraph-font: 'Lato', sans-serif;
 }
 
 * {
