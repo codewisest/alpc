@@ -1,7 +1,8 @@
 :root {
     --primary-bg-color: #425e95;
     --secondary-bg-color: #fff;
-    --gray-background: #cfc6c6;
+    --gray-background: #f4f4f4;
+    --white-background: #fff;
     --accent: #cc8029;
     --primary-text: #fff;
     --secondary-text: #425e95;
@@ -14,6 +15,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray-background);
 }
 
 .grid {
@@ -61,6 +66,9 @@ header {
     background-repeat: no-repeat;
     color: var(--primary-text);
     height: 100vh;
+}
+
+header, main {
     padding: 2rem 1rem;
 }
 
@@ -116,3 +124,42 @@ header nav > ul > li {
     width: 800px;
     text-shadow: 2px 2px 2px #333;
 }
+
+/* SERVICES SECTION */
+.services {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.service {
+    width: 40%;
+    margin-bottom: 2rem;
+    background-color: var(--white-background);
+    padding: 1.5rem;
+    display: flex;
+}
+
+.service > .text {
+    margin-left: 1rem;
+}
+
+.service > .text > h2 {
+    margin-bottom: 10px;
+    color: var(--secondary-text);
+}
+
+/* .about > .container {
+    padding: 2rem 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about > .container > div{
+    width: 50%;
+}
+
+.about > .container > .about_text {
+    background-color: var(--white-background);
+    padding: 1rem;
+} */
