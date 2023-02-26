@@ -291,7 +291,6 @@ footer .container{
 
 footer > .container > div {
     width: 23%;
-    border: 2px solid red;
     padding: 1rem;
 }
 
@@ -311,6 +310,16 @@ footer h2 {
     width: 70px;
 }
 
+.footer_profile_text > p {
+    font-size: 14px;
+    
+}
+
 .footer_social {
     margin-top: 20px;
+}
+
+.footer_social > img {
+    margin-right: 0.5rem;
+    width: 20px;
 }
