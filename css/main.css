@@ -278,3 +278,39 @@ header nav > ul > li {
 .team_member_text p {
     font-size: smaller;
 }
+
+/* Footer */
+footer {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text);
+}
+
+footer .container{
+    justify-content: space-between;
+}
+
+footer > .container > div {
+    width: 23%;
+    border: 2px solid red;
+    padding: 1rem;
+}
+
+footer h2 {
+    color: var(--primary-text);
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.footer_logo figure {
+    align-items: center;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.footer_logo img {
+    width: 70px;
+}
+
+.footer_social {
+    margin-top: 20px;
+}
