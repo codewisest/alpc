@@ -9,6 +9,7 @@
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Playfair Display', serif;
     --pargraph-font: 'Lato', sans-serif;
+    --background-variant: #00204c;
 }
 
 * {
@@ -281,7 +282,7 @@ header nav > ul > li {
 
 /* Footer */
 footer {
-    background-color: var(--primary-bg-color);
+    background-color: var(--background-variant);
     color: var(--primary-text);
 }
 
@@ -292,6 +293,10 @@ footer .container{
 footer > .container > div {
     width: 23%;
     padding: 1rem;
+}
+
+footer > .container > div:not(:first-child) {
+    margin-top: 20px;
 }
 
 footer h2 {
@@ -310,16 +315,19 @@ footer h2 {
     width: 70px;
 }
 
-.footer_profile_text > p {
+footer p {
     font-size: 14px;
-    
-}
-
-.footer_social {
-    margin-top: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 .footer_social > img {
     margin-right: 0.5rem;
     width: 20px;
+}
+
+.quick_links li {
+    font-family: var(--secondary-font);
+    letter-spacing: 2px;
+    margin-bottom: 7px;
 }
