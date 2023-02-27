@@ -318,7 +318,7 @@ footer h2 {
 footer p {
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .footer_social > img {
@@ -329,7 +329,7 @@ footer p {
 .quick_links li {
     font-family: var(--secondary-font);
     letter-spacing: 2px;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
 }
 
 footer img + p {
@@ -345,6 +345,7 @@ footer img + p {
     margin-bottom: 20px;
 }
 
-.footer_contact img {
-    /* display: inline-block; */
+.footer_subscribe input {
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
 }
