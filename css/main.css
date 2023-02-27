@@ -331,3 +331,20 @@ footer p {
     letter-spacing: 2px;
     margin-bottom: 7px;
 }
+
+footer img + p {
+    display: inline-block;
+    align-self: center;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.footer_contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_contact img {
+    /* display: inline-block; */
+}
