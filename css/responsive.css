@@ -5,6 +5,10 @@
     grid-template-rows: 1fr;
   }
 
+  .upper_header figcaption {
+    font-size: 0.9rem;
+  }
+
   .header_logo {
     grid-column: 1/2;
     align-self: flex-start;
@@ -50,5 +54,9 @@
 @media screen and (max-width: 600px) {
   .header_contact {
     justify-self: flex-start;
+  }
+
+  .upper_header figcaption {
+    font-size: 0.7rem;
   }
 }
