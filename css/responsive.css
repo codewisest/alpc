@@ -147,6 +147,20 @@
 
 /* At 550px and below */
 @media screen and (max-width: 550px) {
+  .phone_icon {
+    width: 30px;
+  }
+
+  .header_contact p {
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
+  }
+  .lower_header {
+    padding: 0 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
   .service {
     width: 90%;
   }
