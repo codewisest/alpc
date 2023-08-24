@@ -1,3 +1,22 @@
+/* At 1100px and below */
+@media screen and (max-width: 1100px) {
+  .service {
+    width: 45%;
+  }
+  .service img {
+    width: 40px;
+  }
+
+  .service h2 {
+    font-size: 1.3rem;
+  }
+
+  .service p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}
+
 /* At 960px and below */
 @media screen and (max-width: 960px) {
   .upper_header {
@@ -26,6 +45,16 @@
     grid-row: 1/2;
     grid-column: 2/3;
   }
+
+  .services {
+    width: 90%;
+  }
+
+  .service {
+    width: 46%;
+    /* margin-left: 1rem; */
+    margin-right: 0;
+  }
 }
 
 /* At 905px and below */
@@ -53,6 +82,17 @@
   }
 }
 
+/* At 850px and below */
+@media screen and (max-width: 850px) {
+  .services {
+    width: 96%;
+  }
+  .service {
+    width: 47%;
+    margin-left: 0.5rem;
+  }
+}
+
 /* At 750px and below */
 @media screen and (max-width: 750px) {
   .upper_header {
@@ -76,6 +116,22 @@
   .lower_header .extra_paragraph {
     display: none;
   }
+
+  .services {
+    width: 98%;
+  }
+
+  .service {
+    width: 48%;
+    /* margin-left: 0.5rem; */
+  }
+}
+
+/* At 650px and below */
+@media screen and (max-width: 650px) {
+  .services {
+    width: 100%;
+  }
 }
 
 /* At 600px and below */
@@ -86,5 +142,12 @@
 
   h1 {
     font-size: 2rem;
+  }
+}
+
+/* At 550px and below */
+@media screen and (max-width: 550px) {
+  .service {
+    width: 90%;
   }
 }

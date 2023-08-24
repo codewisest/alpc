@@ -178,8 +178,9 @@ h2 > span {
   margin: 0 auto;
 }
 .service {
+  max-width: 400px;
   width: 40%;
-  margin-bottom: 2rem;
+  margin: 0 1rem 2rem 1rem;
   background-color: var(--white-background);
   padding: 1.5rem;
   display: flex;
