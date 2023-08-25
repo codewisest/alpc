@@ -57,6 +57,17 @@
   }
 }
 
+/* At 938px and below */
+@media screen and (max-width: 938px) {
+  .about_image {
+    height: 80vh;
+  }
+
+  .about > .container > div {
+    width: 70%;
+  }
+}
+
 /* At 905px and below */
 @media screen and (max-width: 905px) {
   .upper_header {

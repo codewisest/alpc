@@ -195,8 +195,16 @@ h2 > span {
 }
 
 /* about */
+.about > .container {
+  flex-wrap: wrap;
+}
+.about > .container > div {
+  min-width: 400px;
+  margin: 0 auto;
+}
 .about_image {
   position: relative;
+  /* height: 100vh; */
 }
 
 .success_count {
