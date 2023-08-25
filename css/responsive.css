@@ -158,6 +158,20 @@
 
 /* At 550px and below */
 @media screen and (max-width: 550px) {
+  header {
+    padding: 2rem 0.5rem;
+  }
+
+  .header_logo img {
+    width: 60px;
+  }
+  .header_logo figcaption > span {
+    display: none;
+  }
+
+  .header_logo {
+    padding-left: 0;
+  }
   .phone_icon {
     width: 30px;
   }
