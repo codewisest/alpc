@@ -86,6 +86,11 @@ li {
   display: none;
 }
 
+label,
+input {
+  display: block;
+}
+
 header {
   background-image: linear-gradient(rgba(66, 94, 149, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/header_bg.jpg);
@@ -335,11 +340,15 @@ footer {
 
 footer .container {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer > .container > div {
   width: 23%;
   padding: 1rem;
+
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 footer > .container > div:not(:first-child) {
