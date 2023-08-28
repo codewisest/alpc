@@ -191,6 +191,24 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .about > .container {
+    width: 100%;
+  }
+  .about > .container > div {
+    min-width: 300px;
+    width: 98%;
+  }
+
+  .team_members > div {
+    min-width: 350px;
+  }
+
+  footer > .container > div {
+    min-width: 350px;
+  }
+}
+
 @media screen and (max-width: 280px) {
   .about > .container {
     width: 98%;
