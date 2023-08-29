@@ -16,3 +16,10 @@ if (hamburgerMenu) {
     hamburgerMenu.classList.toggle("change");
   });
 }
+
+// lazy loading
+const lazyTeamImages = document.querySelectorAll(".team_member img");
+
+lazyTeamImages.forEach((lazyImg) => {
+  lazyImg.setAttribute("loading", "lazy");
+});
